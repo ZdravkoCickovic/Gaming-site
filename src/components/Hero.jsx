@@ -140,11 +140,12 @@ const Hero = () => {
               Redefi<b>n</b>e
             </h1>
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Enter the Metagame Layer <br /> Unleash the Play Economy
+              Europe is home to an incredible variety of beers. From Belgian
+              ales to German lagers, find your favorite style.
             </p>
             <Button
               id="watch-trailer"
-              title="Watch Trailer"
+              title="Beer Me One"
               leftIcon={<TiLocationArrow />}
               containerClass="!bg-yellow-300 flex-center gap-1"
             />

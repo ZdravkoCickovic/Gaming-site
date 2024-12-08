@@ -51,7 +51,7 @@ const BentoCard = ({ title, src, description }) => {
       />
       <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
         <div>
-          <h1 className="bento-title special-font">{title}</h1>
+          <h1 className="bento-title special-font text-yellow-600">{title}</h1>
           {description && (
             <p className="mt-3 max-w-64 text-sm md:text-base">{description}</p>
           )}
@@ -67,13 +67,12 @@ const Features = () => {
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
           <p className="font-circular_web text-lg text-blue-50">
-            Into the Metagame Layer
+            Crafted for Every Taste
           </p>
 
           <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-            Immerse yourself in a rich and ever-expanding universe where a
-            vibrant array of products converge into an interconnected overlay
-            experience on your world.
+            Beer isn’t just a drink—it’s an experience. With so many styles to
+            choose from, there’s something for everyone.
           </p>
         </div>
 
@@ -85,7 +84,7 @@ const Features = () => {
                 radian<b>t</b>
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            description="The secret to great beer lies in simple ingredients and a little brewing magic."
           />
         </BentoTilt>
 
@@ -95,11 +94,10 @@ const Features = () => {
               src="videos/feature-2.mp4"
               title={
                 <>
-                  zig<b>m</b>
-                  <b>a</b>
+                  H<b>o</b>ps
                 </>
               }
-              description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+              description="Whether you prefer a crisp lager, a hoppy IPA, or a rich stout, there’s a beer waiting for you to discover."
             />
           </BentoTilt>
 
@@ -108,11 +106,10 @@ const Features = () => {
               src="videos/feature-3.mp4"
               title={
                 <>
-                  n<b>e</b>
-                  xus
+                  Tr<b>a</b>dition
                 </>
               }
-              description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+              description="Centuries-old recipes and techniques continue to inspire modern brewing. Celebrate the timeless art of beer-making."
             />
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
@@ -120,17 +117,16 @@ const Features = () => {
               src="videos/feature-4.mp4"
               title={
                 <>
-                  a<b>z</b>
-                  ul
+                  T<b>a</b>ste
                 </>
               }
-              description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+              description="Cheers to the flavors, stories, and moments shared over a pint."
             />
           </BentoTilt>
           <BentoTilt className="bento-tilt_2">
             <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
               <h1 className="bento-title special-font max-w-64 text-black">
-                M<b>o</b>re co<b>m</b>ing soon!
+                <b>A</b> World in <b>a</b> Glass
               </h1>
 
               <TiLocationArrow className="m-5 scale-[5] self-end" />

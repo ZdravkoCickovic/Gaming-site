@@ -31,17 +31,19 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <h2 className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+          The Brewer’s Journey
         </h2>
 
         <AnimatedText
-          title="Disc<b>o</b>ver the worlds <br /> l<b>a</b>rgest shared adventure"
+          title="European Beers: </br> A World of Flavors"
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
-          <p>The game of games begins-your life, now epic MMORPG</p>
-          <p>Zentry unites player from countless games and platforms</p>
+          <p>
+            Beer has been cherished for thousands of years. Explore how this
+            golden beverage shaped cultures and brought people together.
+          </p>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ import { useWindowScroll } from "react-use";
 import gsap from "gsap";
 import { CgLoadbarSound } from "react-icons/cg";
 
-const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
+const navItems = ["Home", "About", "Contact"];
 
 const Navbar = () => {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
